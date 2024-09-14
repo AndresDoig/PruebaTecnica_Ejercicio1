@@ -5,7 +5,7 @@ const searchWorldBank = async (req, res) => {
     const entity = req.params.entity.trim().toLowerCase(); // Convertimos a minúsculas y eliminamos espacios extra
     try {
         // Lanza un navegador en modo headless
-        const browser = await puppeteer.launch();
+        const browser = await puppeteer.launch({ headless: true});
         const page = await browser.newPage();
 
         // Navega a la página con la búsqueda de la entidad

@@ -12,6 +12,8 @@
   "dependencies": {
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "ejercicio1": "file:",
     "express": "^4.21.0",
     "express-rate-limit": "^7.4.0",
     "puppeteer": "^23.3.0"
